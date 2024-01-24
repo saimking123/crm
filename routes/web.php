@@ -18,3 +18,8 @@ use App\Http\Controllers\formcontroller;
 // });
 
 Route::get('/',[formcontroller::class,'registerformget']);
+Route::post('/',[formcontroller::class,'registerformpost']);
+Route::get('/login',[formcontroller::class,'loginget']);
+Route::post('/login',[formcontroller::class,'loginpost']);
+
+
